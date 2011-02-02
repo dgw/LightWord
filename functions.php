@@ -829,8 +829,6 @@ add_filter('comment_form_default_fields', 'lightword_comment_fields');
 require_once(TEMPLATEPATH.'/custom_header.php');
 
 // Include CSS in WP head
-
-
 if ( !is_admin() ) {
     $theme  = get_theme( get_current_theme() );
     wp_register_style( 'lightword_stylesheet', get_bloginfo( 'stylesheet_url' ), false, $theme['Version'] );
@@ -847,6 +845,8 @@ else:
     wp_register_style( 'lightword_stylesheet_original', get_template_directory_uri() . '/original.css', false, $theme['Version'] );
     wp_enqueue_style( 'lightword_stylesheet_original' );
 endif;
+	wp_register_style( 'lightword_print_styles', get_template_directory_uri() . '/print.css', false, $theme['Version'], 'print,projection' );
+	wp_enqueue_style( 'lightword_print_styles' );
 }
 
 // Single page template embed push css

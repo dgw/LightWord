@@ -1,0 +1,12 @@
+﻿body {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+#top_bar, #rss-feed, .cat_tags, .cat_tags_close, .content-sidebar, .content-sidebar-2, .newer-older, a.top, .comm_date {
+  display: none;
+}
+#content,#content-body,.hentry {
+  width: auto;
+}
