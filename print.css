@@ -3,8 +3,9 @@
   color: black;
   margin: 0;
   padding: 0;
+  font-size: 11pt;
 }
-#top_bar, #rss-feed, .cat_tags, .cat_tags_close, .content-sidebar, .content-sidebar-2, .newer-older, a.top, .comm_date {
+#top_bar, #rss-feed, .cat_tags, .cat_tags_close, .content-sidebar, .content-sidebar-2, .newer-older, .top, .comm_date, #footer {
   display: none;
 }
 #content,#content-body,.hentry {
