@@ -11,3 +11,6 @@
 #content, #content-body, .hentry {
   width: auto;
 }
+a:link, a:visited {
+  color: #333;
+}
