@@ -14,6 +14,11 @@
 a:link, a:visited {
   color: #333;
 }
+#content-body a:link:after, #content-body a:visited:after {
+  /* Print URLs after links
+   * @TODO the generated content shouldn't be underlined */
+  content: ' <' attr(href) '>';
+}
 abbr, acronym, span.abbr {
   border: 0;
 }
