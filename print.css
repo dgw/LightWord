@@ -18,6 +18,7 @@ a:link, a:visited {
   /* Print URLs after links
    * @TODO the generated content shouldn't be underlined */
   content: ' <' attr(href) '>';
+  font-size: 90%;
 }
 abbr, acronym, span.abbr {
   border: 0;
