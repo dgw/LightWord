@@ -8,7 +8,7 @@
 #top_bar, #rss-feed, .cat_tags, .cat_tags_close, .content-sidebar, .content-sidebar-2, .newer-older, .top, .comm_date, #footer, .subscribe_comments {
   display: none;
 }
-#content, #content-body, .hentry {
+#header, #content, #content-body, .hentry {
   width: auto;
 }
 a:link, a:visited {
