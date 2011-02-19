@@ -20,6 +20,9 @@ a:link, a:visited {
   content: ' <' attr(href) '>';
   font-size: 90%;
 }
+#content-body a[href^="#"]:after {
+  content: '' !important;
+}
 abbr, acronym, span.abbr {
   border: 0;
 }
