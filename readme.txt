@@ -124,8 +124,11 @@ CHANGELOG | V2.0.0.7
 | New option: Path to favicon (if you don't want to store it in LightWord's
   directory, or already have one elsewhere, just set the path) [voyagerfan5761]
 | Single page template sidebar and front menu issues fixed
+| Cufon update, fix IE9 font bug
+| Added Catalan translation ca.mo(props to Joan Juvanteny)
+| Fixed some js compatibility issues with WPaudio MP3 Player
 
 Best regards,
+Andrei Luca and Voyagerfan5761 (since sometime around v2.0.0.4)
 
-Andrei Luca
-(and Voyagerfan5761, since sometime around v2.0.0.4)
+PS. If you noticed a general/security problem please contact me at andrei(at)kis.ro
